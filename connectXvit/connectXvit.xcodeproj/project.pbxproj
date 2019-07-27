@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		2606D55722EC5296001BCB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606D55622EC5296001BCB13 /* AppDelegate.swift */; };
 		2606D55922EC5296001BCB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606D55822EC5296001BCB13 /* ViewController.swift */; };
-		2606D55B22EC5299001BCB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2606D55A22EC5299001BCB13 /* Assets.xcassets */; };
 		2606D55E22EC5299001BCB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2606D55C22EC5299001BCB13 /* Main.storyboard */; };
+		2606D56722EC59EC001BCB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2606D56622EC59EB001BCB13 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2606D55322EC5296001BCB13 /* connectXvit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = connectXvit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2606D55622EC5296001BCB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2606D55822EC5296001BCB13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2606D55A22EC5299001BCB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2606D55D22EC5299001BCB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2606D55F22EC5299001BCB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2606D56022EC5299001BCB13 /* connectXvit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = connectXvit.entitlements; sourceTree = "<group>"; };
+		2606D56622EC59EB001BCB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 			children = (
 				2606D55622EC5296001BCB13 /* AppDelegate.swift */,
 				2606D55822EC5296001BCB13 /* ViewController.swift */,
-				2606D55A22EC5299001BCB13 /* Assets.xcassets */,
 				2606D55C22EC5299001BCB13 /* Main.storyboard */,
 				2606D55F22EC5299001BCB13 /* Info.plist */,
 				2606D56022EC5299001BCB13 /* connectXvit.entitlements */,
+				2606D56622EC59EB001BCB13 /* Assets.xcassets */,
 			);
 			path = connectXvit;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2606D55B22EC5299001BCB13 /* Assets.xcassets in Resources */,
+				2606D56722EC59EC001BCB13 /* Assets.xcassets in Resources */,
 				2606D55E22EC5299001BCB13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
