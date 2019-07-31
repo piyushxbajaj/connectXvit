@@ -759,10 +759,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="1Ma-uS-SkG">
             <objects>
-                <viewController id="clV-8w-PKy" sceneMemberID="viewController">
+                <viewController id="clV-8w-PKy" customClass="SignUpViewController" customModule="connectXvit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="B4a-hk-lau">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -822,6 +822,10 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="pass" destination="yJN-yl-CVT" id="RCO-pN-pL6"/>
+                        <outlet property="rollNum" destination="41s-cE-e6x" id="PS1-J6-qvb"/>
+                    </connections>
                 </viewController>
                 <customObject id="pYr-j8-XId" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

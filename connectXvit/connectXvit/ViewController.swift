@@ -7,11 +7,20 @@
 //
 
 import Cocoa
+var signIn = 0
 
 class ViewController: NSViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+        
+        let controller = storyboard.instantiateController(withIdentifier: "ViewController")
+//        if signIn==1 {
+        
+//            self.present(controller as! NSViewController, animator: NSViewControllerPresentationAnimator)
+//        }
 
         // Do any additional setup after loading the view.
     }
