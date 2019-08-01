@@ -28,7 +28,9 @@ class SignUpViewController: NSViewController {
         }
         else{
             defaults.set(rollNumField.stringValue, forKey: "rollNum")
+            
             defaults.set(passField.stringValue,forKey: "pass")
+            print("successful")
         }
     }
 }

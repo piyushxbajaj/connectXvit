@@ -14,9 +14,9 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+//        let storyboard = NSStoryboard(name: "Main", bundle: nil)
         
-        let controller = storyboard.instantiateController(withIdentifier: "ViewController")
+//        let controller = storyboard.instantiateController(withIdentifier: "ViewController")
 //        if signIn==1 {
         
 //            self.present(controller as! NSViewController, animator: NSViewControllerPresentationAnimator)
@@ -31,6 +31,18 @@ class ViewController: NSViewController {
         }
     }
 
-
+//    @IBAction func SignUp(_ sender: NSButton) {
+//        let storyboard = NSStoryboard(name: "main", bundle: Bundle.main)
+//        let SignUp :ViewController = storyboard.instantiateController(withIdentifier: "SignUpViewController") as! ViewController
+//        instantiateController(withIdentifier: "SignUpViewController") as! ViewController
+//        presentViewController(SignUpViewController, animated: true, completion: nil)
+        
+//        performSegue(withIdentifier: "SignUpViewController", sender: nil)
+        
+        
+//    }
+    
+    
 }
+
 
