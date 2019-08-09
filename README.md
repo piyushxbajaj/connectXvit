@@ -1,3 +1,3 @@
-This app is for mac
+This app is for macOS
 
 Inspired from TAPVIT which is for macOSX
